@@ -40,4 +40,10 @@ if (dellItem.classList[0] === 'dell_button'){
   const delit = dellItem.parentElement;
   delit.remove();
 }
+  
+else if if (dellItem.classList[0] === 'check_button'){
+  const checker = dellItem.parentElement;
+  checker.classList.toggle("completed");
+  console.log(checker);
+}
 }
